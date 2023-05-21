@@ -1,0 +1,35 @@
+.grid-container {
+    display: flex;
+
+}
+.row {
+    margin: 50px;
+}
+.box {
+    height: 75px;
+    width: 75px;
+    border: 2px solid black;
+    margin: 0px;
+    text-align: center;
+    border-radius:50%;
+    color: white;
+    background-color: black;
+
+}
+input {
+    border-radius: 50%;
+    color: white;
+    background-color: black;
+    box-sizing: content-box;
+    height: 100%;
+    font-size: 5rem;    
+    width: 100%;
+    padding: 0;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    caret-color: transparent;
+}
+/* input:focus {
+    outline-width: 0;
+} */
